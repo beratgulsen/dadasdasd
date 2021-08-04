@@ -1,0 +1,779 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+    <meta data-n-head='ssr' charset="utf-8">
+    <meta data-n-head='ssr' name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Head Information -->
+    <title>Animes Online Games - Comandos</title>
+    <link data-n-head='ssr' rel='icon' type='image/x-icon' href='https://cdn.glitch.com/5c743626-cb6d-4bb9-a550-34581f7ec405%2Fanimes-online-logo-A.png?v=1623882220367'>
+
+    <!-- Styles -->
+    <link type='text/css' rel='stylesheet' href='styles/utilities.css'>
+    <link type='text/css' rel='stylesheet' href='styles/common.css'>
+    <link type='text/css' rel='stylesheet' href='styles/commands.css'>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!-- Meta -->
+        <meta data-n-head='ssr' data-hid='theme-color' name='theme-color' content='#27AE60'>
+    <meta data-n-head='ssr' data-hid='og:type' name='og:type' content='website'>
+    <meta data-n-head='ssr' data-hid='og:title' name='og:title' content='Animes Online Games - Comandos!'>
+    <meta data-n-head='ssr' data-hid='og:url' name='og:url' content='https://animesgamesbot.ml/comandos.html'>
+    <meta data-n-head='ssr' data-hid='og:image' name='og:image'
+        content='https://cdn.glitch.com/5c743626-cb6d-4bb9-a550-34581f7ec405%2Fanimes-online-logo-A.png?v=1623882220367'>
+    <meta data-n-head='ssr' data-hid='description' name='description'
+        content='Animes Online Games é um Bot do Discord, com vários comandos!'>
+    <meta data-n-head='ssr' data-hid='og:description' name='og:description'
+        content='Animes Online Games é um Bot do Discord, com vários comandos!'>
+</head>
+
+<body style='background-color: #292a2e'>
+
+    <!-- Header -->
+    <div class='navbar'>
+        <div class='container full flex'>
+            <a href='/' class='logo flex'>
+                <img src='https://cdn.glitch.com/5c743626-cb6d-4bb9-a550-34581f7ec405%2Fanimes-online-logo-A.png?v=1623882220367' alt='AnimesOnline.Games Logo'>
+                <p class='title'>Animes Online Games</p>
+            </a>
+            <nav>
+                <ul>
+                    <li><a class='button currentPage' href='commands.html'><span>Comandos</span></a></li>
+                    <li><a class='button' href='fanart.html'><span>Fanart</span></a></li>
+                    <li><a class='button' href='https://discord.gg/E7x6Ttg'><span>Convite</span></a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+    <!-- Notes -->
+    <div class='notes card'>
+        <div class='container full grid'>
+            <div class='commandPrefix'>
+                <h2>PREFIXO DO COMANDO</h2>
+                <div class='flex'>
+                  <i class="fas fa-pen"></i>
+                    <p> O prefixo padrão é </p>
+                    <pre><code> a? </code></pre>
+                </div>
+                <div class='flex'>
+                  <i class="fas fa-terminal"></i>
+                    <p>Exemplo de comando: </p>
+                    <pre><code>a?ajuda</code></pre>
+                </div>
+            </div>
+            <div class='commandSyntax'>
+                <h2>SINTAX DO COMANDO</h2>
+
+                <div class='flex'>
+                    <pre><code> [] </code></pre>
+                    <p>- Parâmetro opcional</p>
+                </div>
+                <div class='flex'>
+                    <pre><code> <> </code></pre>
+                    <p>- Parâmetro requerido</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Commands -->
+<div class='category flex'>
+        <div class='container full accordion'>
+            <div class='card commands'>
+                <div id='funContainer'>
+                    <input type='checkbox' id='fun' class='accordion_input'>
+                    <label for='fun' class='accordion_label'><i class="fas fa-gamepad"></i>Diversão</label>
+                    <div class='content accordion'>
+                        <div class='card'>
+                            <input type='checkbox' id='8ball' class='accordion_input'>
+                            <label for='8ball' class='accordion_label'>8ball</label>
+                            <div class='content'>
+                                <p>Faça uma pergunta, sinta-se á vontade!</p>
+                                <div class='flex usage'>
+                                    <h4>Uso: </h4>
+                                    <pre><code>8ball < pergunta ></code></pre>
+                                </div>
+                                <div class='flex usage'>
+                                    <h4>Exemplo:</h4>
+                                    <pre><code>8ball Eu sou legal?</code></pre>
+                                </div>
+                            </div>
+                        </div>
+                        <div class='card'>
+                            <input type='checkbox' id='abraçar' class='accordion_input'>
+                            <label for='abraçar' class='accordion_label'>Abraçar</label>
+                            <div class='content'>
+                                <p>Abrace uma pessoa virtualmente!</p>
+                                <div class='flex usage'>
+                                    <h4>Uso: </h4>
+                                    <pre><code>abraçar < membro ></code></pre>
+                                </div>
+                                <div class='flex usage'>
+                                    <h4>Exemplo:</h4>
+                                    <pre><code>abraçar @PILEQUE#6252</code></pre>
+                                </div>
+                            </div>
+                        </div>  
+                        <div class='card'>
+                            <input type='checkbox' id='coinFlip' class='accordion_input'>
+                            <label for='coinFlip' class='accordion_label'>Amongus</label>
+                            <div class='content flex container full'>
+                                <p>Bora jogar Among Us pelo Discord (Requer PC bom)</p>
+                                <div class='flex usage'>
+                                    <h4>Uso: </h4>
+                                    <pre><code>amongus</code></pre>
+                                </div>
+                            </div>
+                        </div>
+                        <div class='card'>
+                            <input type='checkbox' id='avatar' class='accordion_input'>
+                            <label for='avatar' class='accordion_label'>Avatar</label>
+                            <div class='content'>
+                                <p>Veja o avatar de uma pessoa!</p>
+                                <div class='flex usage'>
+                                    <h4>Uso: </h4>
+                                    <pre><code>avatar [membro]</code></pre>
+                                </div>
+                                <div class='flex usage'>
+                                    <h4>Exemplo:</h4>
+                                    <pre><code>avatar @PILEQUE#6252</code></pre>
+                                </div>
+                            </div>
+                        </div>
+                        <div class='card'>
+                            <input type='checkbox' id='beijar' class='accordion_input'>
+                            <label for='beijar' class='accordion_label'>Beijar</label>
+                            <div class='content'>
+                                <p>Dê um beijo virtual <strike>para o PILEQUE#6252</strike></p>
+                                <div class='flex usage'>
+                                    <h4>Uso: </h4>
+                                    <pre><code>beijar < membro ></code></pre>
+                                </div>
+                                <div class='flex usage'>
+                                    <h4>Exemplo:</h4>
+                                    <pre><code>beijar @PILEQUE#6252</code></pre>
+                                </div>
+                            </div>
+                        </div>
+                        <div class='card'>
+                            <input type='checkbox' id='blackjack' class='accordion_input'>
+                            <label for='blackjack' class='accordion_label'>Blackjack</label>
+                            <div class='content'>
+                              <p>Divirta-se jogando o jogo do 21</p>
+                                  <p>Observação: Este comando não é conectado ao banco de dados da economia.</p>
+                                <div class='flex usage'>
+                                    <h4>Uso: </h4>
+                                    <pre><code>blackjack</code></pre>
+                                </div>
+                            </div>
+                        </div>
+                        <div class='card'>
+                            <input type='checkbox' id='calc' class='accordion_input'>
+                            <label for='calc' class='accordion_label'>Calculadora</label>
+                            <div class='content'>
+                                <p>Use uma calculadora no Discord para suas expressões matemáticas!</p>
+                                <div class='flex usage'>
+                                    <h4>Uso: </h4>
+                                    <pre><code>calc < expressão ></code></pre>
+                                </div>
+                                <div class='flex usage'>
+                                    <h4>Exemplo:</h4>
+                                    <pre><code>calc 67*23-10</code></pre>
+                                </div>
+                            </div>
+                        </div>
+                        <div class='card'>
+                            <input type='checkbox' id='casar' class='accordion_input'>
+                            <label for='casar' class='accordion_label'>Casar</label>
+                            <div class='content'>
+                                <p>Uh, parece que vamos ver um novo casal por aqui! Olha só como o amor é tão lindo!</p>
+                                <div class='flex usage'>
+                                    <h4>Uso: </h4>
+                                    <pre><code>casar < membro ></code></pre>
+                                </div>
+                                <div class='flex usage'>
+                                    <h4>Exemplo:</h4>
+                                    <pre><code>casar @PILEQUE#6252</code></pre>
+                                </div>
+                            </div>
+                        </div>
+                        <div class='card'>
+                            <input type='checkbox' id='cat' class='accordion_input'>
+                            <label for='cat' class='accordion_label'>Cat</label>
+                            <div class='content'>
+                                <p>Cuidado! COISAS PELUDAS Á VISTA!!! Ah, apenas é um gato olha tão fofo!</p>
+                                <div class='flex usage'>
+                                    <h4>Uso: </h4>
+                                    <pre><code>cat</code></pre>
+                                </div>
+                            </div>
+                        </div>
+                        <div class='card'>
+                            <input type='checkbox' id='divorciar' class='accordion_input'>
+                            <label for='divorciar' class='accordion_label'>Divorciar</label>
+                            <div class='content'>
+                                <p>Como é tão triste ver um casal partir. Eu realmente apoiava esse casal. (Os dois devem usar esse comando)</p>
+                                <div class='flex usage'>
+                                    <h4>Uso: </h4>
+                                    <pre><code>divorciar</code></pre>
+                                </div>
+                            </div>
+                        </div>
+                        <div class='card'>
+                            <input type='checkbox' id='dog' class='accordion_input'>
+                            <label for='dog' class='accordion_label'>Dog</label>
+                            <div class='content'>
+                                <p>Apenas um animal mais acompanhado ao ser humano! Além disso, ele têm PELOOOOOOOOOOOOOOOOOOOO</p>
+                                <div class='flex usage'>
+                                    <h4>Uso: </h4>
+                                    <pre><code>dog</code></pre>
+                                </div>
+                            </div>
+                        </div>
+                        <div class='card'>
+                            <input type='checkbox' id='koala' class='accordion_input'>
+                            <label for='koala' class='accordion_label'>Koala</label>
+                            <div class='content'>
+                                <p>Apenas um animal muito fofo! Além disso, ele têm PELOOOOO, fica agarrado ás árvores e é da Austrália!</p>
+                                <div class='flex usage'>
+                                    <h4>Uso: </h4>
+                                    <pre><code>koala</code></pre>
+                                </div>
+                            </div>
+                        </div>
+                        <div class='card'>
+                            <input type='checkbox' id='laranjo' class='accordion_input'>
+                            <label for='laranjo' class='accordion_label'>Laranjo</label>
+                            <div class='content'>
+                                <p>Quem não adora usar o laranjo? Ele é parecido com uma laranja</p>
+                                <div class='flex usage'>
+                                    <h4>Uso: </h4>
+                                    <pre><code>laranjo < texto ></code></pre>
+                                </div>
+                                <div class='flex usage'>
+                                    <h4>Exemplo:</h4>
+                                    <pre><code>laranjo Luan é do Koala</code></pre>
+                                </div>
+                            </div>
+                        </div>
+                        <div class='card'>
+                            <input type='checkbox' id='mchead' class='accordion_input'>
+                            <label for='mchead' class='accordion_label'>Mchead</label>
+                            <div class='content'>
+                                <p>O Típico e famoso jogo quadrado, Minecraft em que pode-se ver cabeças!</p>
+                                <div class='flex usage'>
+                                    <h4>Uso: </h4>
+                                    <pre><code>mchead < nickname ></code></pre>
+                                </div>
+                                <div class='flex usage'>
+                                    <h4>Exemplo:</h4>
+                                    <pre><code>mchead AnimesOnline</code></pre>
+                                </div>
+                            </div>
+                        </div>
+                        <div class='card'>
+                            <input type='checkbox' id='mcserver' class='accordion_input'>
+                            <label for='mcserver' class='accordion_label'>Mcserver</label>
+                            <div class='content'>
+                                <p>Também podemos ver as estátisticas de um servidor de Minecraft</p>
+                                <div class='flex usage'>
+                                    <h4>Uso: </h4>
+                                    <pre><code>mcserver < servidor ></code></pre>
+                                </div>
+                                <div class='flex usage'>
+                                    <h4>Exemplo:</h4>
+                                    <pre><code>mcserver mc.hypixel.net</code></pre>
+                                </div>
+                            </div>
+                        </div>
+                        <div class='card'>
+                            <input type='checkbox' id='mcskin' class='accordion_input'>
+                            <label for='mcskin' class='accordion_label'>Mcskin</label>
+                            <div class='content'>
+                                <p>Talvez seja melhor ver skins do que cabeças!</p>
+                                <div class='flex usage'>
+                                    <h4>Uso: </h4>
+                                    <pre><code>mcskin < nickname ></code></pre>
+                                </div>
+                                <div class='flex usage'>
+                                    <h4>Exemplo:</h4>
+                                    <pre><code>mcskin AnimesOnline</code></pre>
+                                </div>
+                            </div>
+                        </div>
+                        <div class='card'>
+                            <input type='checkbox' id='mudae' class='accordion_input'>
+                            <label for='mudae' class='accordion_label'>Mudae</label>
+                            <div class='content'>
+                                <p>Este comando dará acesso aos chats de Mudae!</p>
+                                <div class='flex usage'>
+                                    <h4>Uso: </h4>
+                                    <pre><code>mudae</code></pre>
+                                </div>
+                            </div>
+                        </div>
+                        <div class='card'>
+                            <input type='checkbox' id='pescar' class='accordion_input'>
+                            <label for='pescar' class='accordion_label'>Pescar</label>
+                            <div class='content'>
+                                <p>Tente pescar alguns peixes pelo próprio Discord! (requer PC Bom)</p>
+                                <div class='flex usage'>
+                                    <h4>Uso: </h4>
+                                    <pre><code>pescar</code></pre>
+                                </div>
+                            </div>
+                        </div>
+                        <div class='card'>
+                            <input type='checkbox' id='poker' class='accordion_input'>
+                            <label for='poker' class='accordion_label'>Poker</label>
+                            <div class='content'>
+                                <p>Ás vezes é tão chato sem nada para fazer nem jogar! Que tal um Poker? (requer PC Bom)</p>
+                                <div class='flex usage'>
+                                    <h4>Uso: </h4>
+                                    <pre><code>poker</code></pre>
+                                </div>
+                            </div>
+                        </div>
+                        <div class='card'>
+                            <input type='checkbox' id='primeiraspalavras' class='accordion_input'>
+                            <label for='primeiraspalavras' class='accordion_label'>Primeiraspalavras</label>
+                            <div class='content'>
+                                <p>Tente fazer o seu meme com o seu próprio texto</p>
+                                <div class='flex usage'>
+                                    <h4>Uso: </h4>
+                                    <pre><code>primeiraspalavras < texto ></code></pre>
+                                </div>
+                                <div class='flex usage'>
+                                    <h4>Exemplo:</h4>
+                                    <pre><code>primeiraspalavras Anime é ruim</code></pre>
+                                </div>
+                            </div>
+                        </div>
+                        <div class='card'>
+                            <input type='checkbox' id='xadrez' class='accordion_input'>
+                            <label for='xadrez' class='accordion_label'>Xadrez</label>
+                            <div class='content'>
+                                <p>Que tal jogar um pouco de Xadrez? Então entre numa call aí e jogue! (Requer PC Bom)</p>
+                                <div class='flex usage'>
+                                    <h4>Uso: </h4>
+                                    <pre><code>xadrez</code></pre>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id='musicContainer'>
+                    <input type='checkbox' id='music' class='accordion_input'>
+                    <label for='music' class='accordion_label'><i class="fas fa-compact-disc"></i>Música</label>
+                    <div class='content accordion'>
+                        <div class='card'>
+                            <input type='checkbox' id='now-playing' class='accordion_input'>
+                            <label for='now-playing' class='accordion_label'>Youtube</label>
+                            <div class='content'>
+                                <p>Entre em um canal para abrir o Youtube!</p>
+                                <div class='flex usage'>
+                                    <h4>Uso: </h4>
+                                    <pre><code>youtube</code></pre>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id='infoContainer'>
+                    <input type='checkbox' id='info' class='accordion_input'>
+                    <label for='info' class='accordion_label'><i class="fas fa-info"></i>Informação</label>
+                    <div class='content accordion'>
+                      <div class='card'>
+                            <input type='checkbox' id='cmdinfo' class='accordion_input'>
+                            <label for='cmdinfo' class='accordion_label'>Anime</label>
+                            <div class='content'>
+                                <p>Obterá informação de algum anime no MyAnimeList!</p>
+                                <div class='flex usage'>
+                                    <h4>Uso: </h4>
+                                    <pre><code>anime [anime]</code></pre>
+                                </div>
+                                <div class='flex usage'>
+                                    <h4>Exemplo:</h4>
+                                    <pre><code>anime One Piece</code></pre>
+                                </div>
+                            </div>
+                        </div>
+                  <div class='card'>
+                            <input type='checkbox' id='biografia' class='accordion_input'>
+                            <label for='biografia' class='accordion_label'>Biografia</label>
+                            <div class='content'>
+                                <p>Faz uma biografia para o seu perfil!</p>
+                                <div class='flex usage'>
+                                    <h4>Uso: </h4>
+                                    <pre><code>biografia < texto > </code></pre>
+                                </div>
+                                <div class='flex usage'>
+                                    <h4>Exemplo:</h4>
+                                    <pre><code>biografia Gosto muito de One Piece!</code></pre>
+                                </div>
+                            </div>
+                        </div>
+                        <div class='card'>
+                            <input type='checkbox' id='botinfo' class='accordion_input'>
+                            <label for='botinfo' class='accordion_label'>Bot Info</label>
+                            <div class='content'>
+                                <p>Este comando oferece algumas das informações sobre mim como por exemplo data de criação, linguagem e muito mais!</p>
+                                <div class='flex usage'>
+                                    <h4>Uso: </h4>
+                                    <pre><code>botinfo</code></pre>
+                                </div>
+                            </div>
+                        </div>
+                        <div class='card'>
+                            <input type='checkbox' id='cmdlist' class='accordion_input'>
+                            <label for='cmdlist' class='accordion_label'>Faq</label>
+                            <div class='content'>
+                                <p>Obtenha um link de um site para um autoatendimento.</p>
+                                <div class='flex usage'>
+                                    <h4>Uso: </h4>
+                                    <pre><code>faq</code></pre>
+                                </div>
+                            </div>
+                        </div>
+                        <div class='card'>
+                            <input type='checkbox' id='perfil' class='accordion_input'>
+                            <label for='perfil' class='accordion_label'>Perfil</label>
+                            <div class='content'>
+                                <p>Obtenha informações sobre seu perfil ou de outro usuário.</p>
+                                <div class='flex usage'>
+                                    <h4>Uso: </h4>
+                                    <pre><code>perfil [usuário]</code></pre>
+                                </div>
+                            </div>
+                        </div>
+                        <div class='card'>
+                            <input type='checkbox' id='ping' class='accordion_input'>
+                            <label for='ping' class='accordion_label'>Ping</label>
+                            <div class='content'>
+                                <p>Saiba o quão lagado eu sou! Ooooops, saiba quantos milisegundos demoro a responder!</p>
+                                <div class='flex usage'>
+                                    <h4>Uso: </h4>
+                                    <pre><code>ping</code></pre>
+                                </div>
+                            </div>
+                        </div>
+                        <div class='card'>
+                            <input type='checkbox' id='tempo' class='accordion_input'>
+                            <label for='tempo' class='accordion_label'>Tempo</label>
+                            <div class='content'>
+                                <p>Eita... tá friozinho? Será que tá quanto de temperatura?</p>
+                                <div class='flex usage'>
+                                    <h4>Uso: </h4>
+                                    <pre><code>tempo</code></pre>
+                                </div>
+                                <div class='flex usage'>
+                                    <h4>Exemplo:</h4>
+                                    <pre><code>tempo São Paulo</code></pre>
+                                </div>
+                            </div>
+                        </div>
+                        <div class='card'>
+                            <input type='checkbox' id='wikipedia' class='accordion_input'>
+                            <label for='wikipedia' class='accordion_label'>Wikipedia</label>
+                            <div class='content'>
+                                <p>Obtenha informações do Wikipédia em apenas um embed.</p>
+                                <div class='flex usage'>
+                                    <h4>Uso: </h4>
+                                    <pre><code>wikipedia [artigo]</code></pre>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id='modContainer'>
+                    <input type='checkbox' id='mod' class='accordion_input'>
+                    <label for='mod' class='accordion_label'><i class="fas fa-ban"></i>Moderação</label>
+                    <div class='content accordion'>
+                        <div class='card'>
+                            <input type='checkbox' id='ban' class='accordion_input'>
+                            <label for='ban' class='accordion_label'>Ban</label>
+                            <div class='content'>
+                                <p>Eu vou banir o babaca que não respeita as suas regras!</p>
+                                <div class='flex usage'>
+                                    <h4>Uso: </h4>
+                                    <pre><code>ban < membro ></code></pre>
+                                </div>
+                                <div class='flex usage'>
+                                    <h4>Exemplo: </h4>
+                                    <pre><code>ban @Babaca#0001</code></pre>
+                                </div>
+                                <div class='flex usage'>
+                                    <h4>Permissões requeridas: </h4>
+                                    <pre><code>Banir Membros</code></pre>
+                                </div>
+                            </div>
+                        </div>
+                         <div class='card'>
+                            <input type='checkbox' id='clear' class='accordion_input'>
+                            <label for='clear' class='accordion_label'>Clear</label>
+                            <div class='content'>
+                                <p>Eu irei limpar essa bagunça, deixa comigo!</p>
+                                <div class='flex usage'>
+                                    <h4>Uso: </h4>
+                                    <pre><code>clear < quantidade ></code></pre>
+                                </div>
+                                <div class='flex usage'>
+                                    <h4>Exemplo: </h4>
+                                    <pre><code>clear 100</code></pre>
+                                </div>
+                                <div class='flex usage'>
+                                    <h4>Permissões requeridas: </h4>
+                                    <pre><code>Gerenciar Mensagens</code></pre>
+                                </div>
+                            </div>
+                        </div>
+                        <div class='card'>
+                            <input type='checkbox' id='eval' class='accordion_input'>
+                            <label for='eval' class='accordion_label'>Eval</label>
+                            <div class='content'>
+                                <p>Eu vou executar algum comando para fins de teste!</p>
+                                <div class='flex usage'>
+                                    <h4>Uso: </h4>
+                                    <pre><code>eval < código ></code></pre>
+                                </div>
+                                <div class='flex usage'>
+                                    <h4>Exemplo: </h4>
+                                    <pre><code>eval message.channel.send("Eu sou Gostoso")</code></pre>
+                                </div>
+                                <div class='flex usage'>
+                                    <h4>Permissões requeridas: </h4>
+                                    <pre><code>Desenvolvedor do Bot</code></pre>
+                                </div>
+                            </div>
+                        </div>
+                        <div class='card'>
+                            <input type='checkbox' id='historico' class='accordion_input'>
+                            <label for='historico' class='accordion_label'>Historico</label>
+                            <div class='content'>
+                                <p>Irei ver na minha database, o que esse bagunçeiro ficou armando!</p>
+                                <div class='flex usage'>
+                                    <h4>Uso: </h4>
+                                    <pre><code>historico < membro ></code></pre>
+                                </div>
+                                <div class='flex usage'>
+                                    <h4>Exemplo: </h4>
+                                    <pre><code>historico @Babaca#0001</code></pre>
+                                </div>
+                                <div class='flex usage'>
+                                    <h4>Permissões requeridas: </h4>
+                                    <pre><code>Kickar Membros</code></pre>
+                                </div>
+                            </div>
+                        </div>
+                        <div class='card'>
+                            <input type='checkbox' id='lock' class='accordion_input'>
+                            <label for='lock' class='accordion_label'>Lock</label>
+                            <div class='content'>
+                                <p>Eita! O Chat virou uma baderna! Ainda bem que tenho ferramentas para isso, use este comando para bloquear o chat!</p>
+                                <div class='flex usage'>
+                                    <h4>Uso: </h4>
+                                    <pre><code>lock</code></pre>
+                                </div>
+                                <div class='flex usage'>
+                                    <h4>Permissões requeridas: </h4>
+                                    <pre><code>Gerenciar Mensagens</code></pre>
+                                </div>
+                            </div>
+                        </div>
+                        <div class='card'>
+                            <input type='checkbox' id='mute' class='accordion_input'>
+                            <label for='mute' class='accordion_label'>Mute</label>
+                            <div class='content'>
+                                <p>Um otário está aprontando alguma, acho que é hora de dar um mute!</p>
+                                <div class='flex usage'>
+                                    <h4>Uso: </h4>
+                                    <pre><code>mute < membro ></code></pre>
+                                </div>
+                                <div class='flex usage'>
+                                    <h4>Exemplo: </h4>
+                                    <pre><code>mute @Babaca#0001</code></pre>
+                                </div>
+                                <div class='flex usage'>
+                                    <h4>Permissões requeridas: </h4>
+                                    <pre><code>Kickar Membros</code></pre>
+                                </div>
+                            </div>
+                        </div>
+                        <div class='card'>
+                            <input type='checkbox' id='unlock' class='accordion_input'>
+                            <label for='unlock' class='accordion_label'>Unlock</label>
+                            <div class='content'>
+                                <p>Acho que já deu um tempo depois dessa baderna! Vamos dar um unlock aqui!</p>
+                                <div class='flex usage'>
+                                    <h4>Uso: </h4>
+                                    <pre><code>unlock</code></pre>
+                                </div>
+                                <div class='flex usage'>
+                                    <h4>Permissões requeridas: </h4>
+                                    <pre><code>Gerenciar Mensagens</code></pre>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id='ecoContainer'>
+                    <input type='checkbox' id='eco' class='accordion_input'>
+                    <label for='eco' class='accordion_label'><i class="fas fa-money-bill-wave"></i>Economia</label>
+                    <div class='content accordion'>
+                        <div class='card'>
+                            <input type='checkbox' id='banco' class='accordion_input'>
+                            <label for='banco' class='accordion_label'>Banco</label>
+                            <div class='content'>
+                                <p>Saiba quanto dinheiro está armazenado na sua carteira!</p>
+                                <div class='flex usage'>
+                                    <h4>Uso: </h4>
+                                    <pre><code>banco [usuário]</code></pre>
+                                </div>
+                            </div>
+                        </div>
+                        <div class='card'>
+                            <input type='checkbox' id='daily' class='accordion_input'>
+                            <label for='daily' class='accordion_label'>Daily</label>
+                            <div class='content'>
+                                <p>Ganhe o seu dinheiro diário para gastar em suas futuras compras!</p>
+                                <div class='flex usage'>
+                                    <h4>Uso: </h4>
+                                    <pre><code>daily</code></pre>
+                                </div>
+                            </div>
+                        </div>
+                        <div class='card'>
+                            <input type='checkbox' id='loja' class='accordion_input'>
+                            <label for='loja' class='accordion_label'>Loja</label>
+                            <div class='content'>
+                                <p>Vai enviar uma mensagem para você clicar no link para a Loja!</p>
+                                <div class='flex usage'>
+                                    <h4>Uso: </h4>
+                                    <pre><code>loja</code></pre>
+                                </div>
+                            </div>
+                        </div>
+                        <div class='card'>
+                            <input type='checkbox' id='raspadinha' class='accordion_input'>
+                            <label for='raspadinha' class='accordion_label'>Raspadinha</label>
+                            <div class='content'>
+                                <p>Jogo que consiste em raspar um "cartão" para desvendar o seu conteúdo e saber se dá direito a um prémio lucrativo.</p>
+                                <div class='flex usage'>
+                                    <h4>Uso: </h4>
+                                    <pre><code>raspadinha</code></pre>
+                                </div>
+                            </div>
+                        </div>
+                        <div class='card'>
+                            <input type='checkbox' id='rank' class='accordion_input'>
+                            <label for='rank' class='accordion_label'>Rank</label>
+                            <div class='content'>
+                                <p>Top 10 pessoas com mais animecoins globalmente.</p>
+                                <div class='flex usage'>
+                                    <h4>Uso: </h4>
+                                    <pre><code>rank</code></pre>
+                                </div>
+                            </div>
+                        </div>
+                        <div class='card'>
+                            <input type='checkbox' id='rankrep' class='accordion_input'>
+                            <label for='rankrep' class='accordion_label'>Rankrep</label>
+                            <div class='content'>
+                                <p>Top 10 pessoas com mais reps globalmente.</p>
+                                <div class='flex usage'>
+                                    <h4>Uso: </h4>
+                                    <pre><code>rankrep</code></pre>
+                                </div>
+                            </div>
+                        </div>
+                        <div class='card'>
+                            <input type='checkbox' id='rep' class='accordion_input'>
+                            <label for='rep' class='accordion_label'>Rep</label>
+                            <div class='content'>
+                                <p>Alguém te ajudou? Que tal dar uma reputação de confiança para esse usuário!</p>
+                                <div class='flex usage'>
+                                    <h4>Uso: </h4>
+                                    <pre><code>rep < membro ></code></pre>
+                                </div>
+                                <div class='flex usage'>
+                                    <h4>Exemplo: </h4>
+                                    <pre><code>rep @PILEQUE#6252</code></pre>
+                                </div>
+                            </div>
+                        </div>
+                        <div class='card'>
+                            <input type='checkbox' id='roleta' class='accordion_input'>
+                            <label for='roleta' class='accordion_label'>Roleta</label>
+                            <div class='content'>
+                                <p>Vamos ver que valor a roleta furacão vai ficar!!! Será que 10000 AnimeCoins?</p>
+                                <div class='flex usage'>
+                                    <h4>Uso: </h4>
+                                    <pre><code>roleta</code></pre>
+                                </div>
+                            </div>
+                        </div>
+                        <div class='card'>
+                            <input type='checkbox' id='roubar' class='accordion_input'>
+                            <label for='roubar' class='accordion_label'>Roubar</label>
+                            <div class='content'>
+                                <p>A cada 3 horas você poderá roubar, o seu dinheiro varia de qual local você foi roubar.</p>
+                                <div class='flex usage'>
+                                    <h4>Uso: </h4>
+                                    <pre><code>roubar</code></pre>
+                                </div>
+                            </div>
+                        </div>
+                        <div class='card'>
+                            <input type='checkbox' id='trabalhar' class='accordion_input'>
+                            <label for='trabalhar' class='accordion_label'>Trabalhar</label>
+                            <div class='content'>
+                                <p>A cada 8 horas você poderá trabalhar, o seu salário também varia de 200 a 1500 moedas.</p>
+                                <div class='flex usage'>
+                                    <h4>Uso: </h4>
+                                    <pre><code>trabalhar</code></pre>
+                                </div>
+                            </div>
+                        </div>
+                        <div class='card'>
+                            <input type='checkbox' id='trabalhar' class='accordion_input'>
+                            <label for='trabalhar' class='accordion_label'>Transferir</label>
+                            <div class='content'>
+                                <p>Está a dever ao seu amigo dar algumas moedas? Com o Banco Animelândia, os seus problemas estão resolvidos!</p>
+                                <div class='flex usage'>
+                                    <h4>Uso: </h4>
+                                    <pre><code>transferir</code></pre>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class='footer'>
+        <div class='container full grid'>
+            <div class='branding'>
+                <h4>Animes Online Games</h4>
+                <p>Copyright &copy; 2021 AnimesOnline.Games</p>
+            </div>
+            <div class='flex'>
+                <div class='footernav'>
+                    <ul>
+                        <li><a class='button' href='/'><span>Início</span></a></li>
+                        <li><a class='button' href='commands.html'><span>Comandos</span></a></li>
+                        <li><a class='button' href='fanart.html'><span>Fanart</span></a></li>
+                        <li><a class='button' href='https://discord.gg/E7x6Ttg'><span>Servidor</span></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
